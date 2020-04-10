@@ -1,0 +1,35 @@
+#include <iostream>
+#include <fstream>
+#include <string>
+using namespace std;
+int main(int ac, char *av[]) {
+if(ac<=1){
+return 0;
+}
+int k=0;
+ifstream f(av[1]);
+double as = 0;
+while(!f.eof())
+{
+k++;
+}
+int i=0;
+for(i=0;i<=k;i++){
+int t=strcmp(f(i),f(i+1));
+std::string max;
+if(t>0){
+max= f(i);
+}
+}
+max.erase(0, n );
+cout<<"Введите n"<<endl;
+cin>>n;
+string my;
+std::cin.getline(my);
+max.insert(max.begin(), my);
+f >> as;
+cout << as <<endl;
+f.close();
+
+return 0;
+}
